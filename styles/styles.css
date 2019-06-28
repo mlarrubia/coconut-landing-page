@@ -1,0 +1,114 @@
+body{
+    background-color: skyblue;
+}
+
+
+
+/* -----------------------------------     Carosol   ------------------------------------------------- */
+
+
+.carousel-inner img {
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+    min-height:200px;
+}
+
+
+/*  ---------------------------------         ABOUT J   ------------------------------------------- */
+
+#about{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 300px;
+}
+#aboutimg img{
+    height: 500px;
+}
+
+#abouttext{
+    height: 500px;
+    width: 400px;
+}
+
+#abouttext h2{
+    font-size: 22px;
+}
+#abouttext ul li{
+    font-size: 15px;
+}
+
+#abouttext ol li{
+    font-size: 15px;
+}
+
+
+
+/* -----------------------------------    Testimonials    ---------------------------------------------- */
+#testimonialSection{
+    background-color: white;
+    padding: 35px;
+    margin-left: 100px;
+    width: 85vw;
+    height: 600px;
+    display: flex;
+}
+
+#imageForTestimonial {
+    display: flex;
+    align-items: center;
+}
+
+#imageForTestimonial img{
+    height: 500px;
+}
+
+
+.testimonialImage img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+#testimonials{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.testimonialContainer{
+    display: flex;
+    justify-content: center;    
+    margin-bottom: 50px;
+}
+.testimonialContainer:first-child{
+    margin-top: 25px;
+}
+
+.testimonialText{   
+    display: flex;
+    align-items: center; 
+    width: 200px;
+    margin-left: 100px;
+    font-size: 16px;
+}
+
+
+
+/* ------------------------------------     YOUTUBE     ------------------------------------ */
+
+#youtube{
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+
+
+/* --------------------------         FOOTER        ----------------------------------------- */
+
+footer{
+    height: 275px;
+    background-color: #965A3E;
+}
+
+footer 
