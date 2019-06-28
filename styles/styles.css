@@ -109,6 +109,14 @@ body{
 footer{
     height: 275px;
     background-color: #965A3E;
+    display: flex;
 }
 
-footer 
+footer ul{
+    justify-content: space-evenly;
+}
+
+footer ul li{
+    list-style: none;
+    font-size: 3em;
+}
